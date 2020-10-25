@@ -1,0 +1,16 @@
+
+#Temp: This code is taking the temperature(f) of our 505 randomly selected cities as the x-axis and latitude as the y-axis. It shows the increase in temperatures around the 0 latitude equator. The y-limits are set to 90 and -90, so these charts also shows the higher number of cities and distance from equator in the Northern hemisphere.
+
+#Humidity: This code is taking the humidity percentage number of our 505 randomly selected cities as the x-axis and latitude as the y-axis. It shows a slight correlation for distance from equator and humidity levels at this point in the year. It also shows humidity levels above about 75 for most cities. 
+
+#Cloudiness: This code is taking the cloudiness percentage number of our 505 randomly selected cities as the x-axis and latitude as the y-axis. It shows a pretty even distribution of cloudiness levels up and down the different latitudes.
+
+#Wind Speed: This code is taking the wind speed of our 505 randomly selected cities as the x-axis and latitude as the y-axis. It shows a pretty even distribution of wind speed up and down the different latitudes. There are a few high wind cities in the northern hemisphere that may be outliers. It could be because of weather patterns, mountain ranges, or just more samples in the northern hemisphere.
+
+#Hemisphere Obs: The two temperature charts have a strong relationship, as illustrated by the r value. The linear regression slope correlates with the data displayed. We can safely say temperature is higher the closer the latitude is to 0.
+
+#Humidity seems to have a slight relationship with latitude, as illustrated by the r-values. It  is stronger in the northern hemisphere. This could be due to more cities in the northern hemisphere, or because cities are more spread out by latitude in the northern.
+
+#Cloudiness does not seem to have a relationship with latitude. The r-value is very close to 0, and the slope is pretty flat.
+
+#Wind speed has a slight relationship with latitude, but the r-values are close to zero. This could be due to elevation changes close to the equator, or due to jet streams and climates further from the equator. Again, the northenr hemisphere is more spread out and has more cities than the southern.
